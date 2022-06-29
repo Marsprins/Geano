@@ -1,5 +1,15 @@
+:root {
+    --bg1: #242424;
+    --bg2: #313131;
+    --bg3: #444444;
+    --bg4: #a5a5a5;
+    --txt: #d4d4d4;
+    --bttn: #009fa5;
+}
+
+
 body {
-    background-color: rgb(226, 226, 226);
+    background-color: var(--bg1);
     margin: auto;
     overflow: scroll;
 }
