@@ -103,12 +103,14 @@ body {
 
 .dropdown:hover .dropdown-content {
     /* display: block; */
+    visibility: visible;
     transform: translateY(0);
     opacity: 1;
 }
 
 .dropdown-content {
     /* display: none; */
+    visibility: hidden;
     position: absolute;
     background-color: var(--bg2);
     min-width: 160px;
@@ -119,3 +121,4 @@ body {
     transition: all 0.25s ease-in;
     transform: translateY(-10px);
 }
+
