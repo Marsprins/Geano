@@ -1,0 +1,27 @@
+<!-- Links need to be added -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Geano Login</title>
+</head>
+<body>
+  <div class="login-overlay">
+    <p class="login-header">Login</p>    
+    <hr/>
+
+    <!-- Input -->
+    <form action="includes/login-inc.php" method="post">
+      <input id="username-input" type="text" placeholder="Username" name="uid">
+      <input id="password-input" type="password" placeholder="Password" name="pwd">
+      <a class="forgot-password" href="#">Forgot Password?</a>
+      <button class="login-button" type="submit" name="submit">Login</button>
+    </form>
+    
+    <p class="member-question">Not a member yet? <a class="signup-link" href="#">Sign-up</a></p>
+  </div>
+</body>
+</html>
